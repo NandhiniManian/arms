@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 int n,t,r,re;
@@ -9,10 +8,10 @@ t=n;
 while(t!=0)
 {
 r=t%10;
-re=r*r*r;
+re=re+r*r*r;
 t=t/10;
 }
-if(re==n)
+if(re==t
 {
 printf("%d is an Armstrong number",n);
 }
