@@ -11,7 +11,7 @@ r=t%10;
 re=re+r*r*r;
 t=t/10;
 }
-if(re==t
+if(re==t)
 {
 printf("%d is an Armstrong number",n);
 }
